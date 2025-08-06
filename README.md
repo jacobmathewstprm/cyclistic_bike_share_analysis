@@ -55,3 +55,11 @@ The following steps were performed to prepare the data for analysis:
 * **Primary Key:** The `ride_id` was identified as the primary key, and it was used to check for and remove any duplicate rows.
   
 You can find the complete SQL script for these steps in the [SQL Queries](sql/data_cleaning_and_transformation.sql) section of this repository.
+
+#### Observations
+
+### Observations
+
+The table below shows the column names and their data types. The `ride_id` column is our primary key.
+
+![Table Schema](images/image_10aec2.png)
