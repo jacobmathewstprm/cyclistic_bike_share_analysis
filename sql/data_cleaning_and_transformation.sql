@@ -140,15 +140,6 @@ WHERE TRUE;
 
 --Removing Duplicates
 
-SELECT * EXCEPT(row_num)
-FROM (
-  SELECT *,
-    ROW_NUMBER() OVER (PARTITION BY ride_id ORDER BY started_at) AS row_num
-  FROM `mycapstoneprojects.cyclistic.2024_cleaned`
-)
-WHERE row_num = 1;
-
-
 CREATE OR REPLACE TABLE `mycapstoneprojects.cyclistic.2024_cleaned` AS (
   SELECT * EXCEPT(row_num)
   FROM (
