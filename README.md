@@ -52,6 +52,7 @@ The following steps were performed to prepare the data for analysis:
 
 * **Combining Data:** All 12 monthly CSV files were combined into a single table.
 * **Data Cleaning and Transformation:** SQL queries were used to remove rows with missing values, and new columns were created for trip duration, day of the week, and month to aid in the analysis.
+                                         All the rows having missing values are deleted, Trips with duration less than a minute and longer than a day are excluded.
 * **Primary Key:** The `ride_id` was identified as the primary key, and it was used to check for and remove any duplicate rows.
   
 You can find the complete SQL script for these steps in the [SQL Queries](sql/data_cleaning_and_transformation.sql) section of this repository.
@@ -62,4 +63,8 @@ You can find the complete SQL script for these steps in the [SQL Queries](sql/da
 
 The table below shows the column names and their data types. The `ride_id` column is our primary key.
 
-![Table Schema](images/image_10aec2.png)
+![Table Schema](images/schema.png)
+
+## Analysis Summary
+
+I used Power BI for visualization. To handle the large volume of data, I chose the DirectQuery connection method, which allows Power BI to connect live to the data source without loading it all into memory. This ensures the analysis remains efficient and scalable.
