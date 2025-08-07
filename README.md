@@ -102,7 +102,7 @@ To further understand the differences in casual and member riders, the geographi
 
 This heatmap visualizes the density of starting locations for both rider types. The visual provides strong evidence of different usage patterns:
 
-- **Members** show a highly concentrated and dense pattern of activity, with dark blue clusters in central business districts like The Loop. This is typical of daily commuting.
+- **Members** show a highly concentrated and dense pattern of activity, with dark blue clusters in central business districts. This is typical of daily commuting.
 - **Casual riders** show a more diffused and spread-out pattern of activity across the city. This is consistent with using bikes for leisure, tourism, or exploring.
 
 #### Ending Station Locations
@@ -126,6 +126,7 @@ Based on these key insights, here are a few ideas to help convert casual riders 
 
 - Introduce Flexible Membership Options: We should offer special memberships for things like weekends only or for the summer season. Since casual riders use bikes most on weekends and in the summer, these plans would be a great deal for them and could   get them to sign up.
 - Launch a Targeted Digital Media Campaign: We should run ads at the right time and in the right places. For example, ads could be placed at popular parks and stations during weekends and summer months. The message should be about how much money they    could save with a membership.
+- Launch a digital media campaign during the times when casual riders are most active. The analysis shows this is on weekends and in the afternoon and early evening hours. The campaign should also be focused on the spring and summer seasons when         ridership is at its peak.
 - Refocus Ad Messaging: The ads should speak directly to casual riders. Instead of just trying to get new people, the ads should compare the cost of a few weekend rides to the value of an annual membership. 
 
 
