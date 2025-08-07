@@ -77,7 +77,36 @@ This pie chart shows the overall distribution of rides between annual members an
 
 #### Bike Type Preference
 
-[Bike Type Preference]
+![Bike Type Preference](images/bike_type.png).
 
 This chart compares the distribution of bike types between members and casual riders. It shows that both groups primarily prefer classic bikes.
 However, members make up a much larger percentage of total rides on classic bikes (41.97%) compared to casual riders (23.15%). For electric bikes, the usage is more balanced, with members accounting for 21.37% of rides and casuals at 12.38%. The use of electric_scooter is negligible for both groups.
+
+#### Trip Analysis
+
+The following charts compare the riding patterns of annual members and casual riders.
+
+![Trip Analysis](images/trip_analysis.png).
+
+* The "Total Trips by Month" chart shows that both groups follow a similar seasonal pattern, with riding activity peaking in the summer months.
+* The "Per Day of Week" chart reveals a clear difference: members ride consistently throughout the week, while casual riders have a significant increase in trips over the weekend.
+* The "Per Hour" chart reinforces this, showing two distinct peaks for members (morning and evening), a pattern consistent with commuting. In contrast, casual riders have a single peak in the afternoon, which is typical of leisure use.
+
+These findings collectively and strongly suggest that annual members use Cyclistic bikes for commuting, while casual riders use them for leisure.
+
+To further understand the differences in casual and member riders, the geographical locations of starting and ending stations were analyzed. These heatmaps provide powerful evidence of their distinct usage patterns.
+
+#### Starting Station Locations
+
+![Start Station Locations](images/start_station.png)
+
+This heatmap visualizes the density of starting locations for both rider types. The visual provides strong evidence of different usage patterns:
+
+- **Members** show a highly concentrated and dense pattern of activity, with dark blue clusters in central business districts like The Loop. This is typical of daily commuting.
+- **Casual riders** show a more diffused and spread-out pattern of activity across the city. This is consistent with using bikes for leisure, tourism, or exploring.
+
+#### Ending Station Locations
+
+![End Station Loactions](images/end_station.png)
+
+A similar trend can be observed in the end station locations. The heatmap for members shows a high concentration of activity in the same central business districts where their rides began. This pattern reinforces the conclusion that members rely on bikes for daily commutes. In contrast, the end locations for casual riders are more spread out, supporting the idea that they are using the service for leisure activities with less fixed routes.
