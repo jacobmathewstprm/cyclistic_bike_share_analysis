@@ -149,3 +149,28 @@ CREATE OR REPLACE TABLE `mycapstoneprojects.cyclistic.2024_cleaned` AS (
   )
   WHERE row_num = 1
 );
+
+-- Adding the HourLabel column
+ALTER TABLE `mycapstoneprojects.cyclistic.2024_cleaned`
+ADD COLUMN HourLabel STRING;
+
+
+-- Query to add the start_hour column
+ALTER TABLE `mycapstoneprojects.cyclistic.2024_cleaned`
+ADD COLUMN start_hour INT64;
+
+-- Query to populate the start_hour column
+UPDATE `mycapstoneprojects.cyclistic.2024_cleaned`
+SET start_hour = EXTRACT(HOUR FROM started_at)
+WHERE TRUE;
+
+-- Query to populate the HourLabel column
+UPDATE `mycapstoneprojects.cyclistic.2024_cleaned`
+SET HourLabel =
+  CASE
+    WHEN start_hour = 0 THEN '12 AM'
+    WHEN start_hour < 12 THEN CONCAT(CAST(start_hour AS STRING), ' AM')
+    WHEN start_hour = 12 THEN '12 PM'
+    ELSE CONCAT(CAST(start_hour - 12 AS STRING), ' PM')
+  END
+WHERE TRUE;
