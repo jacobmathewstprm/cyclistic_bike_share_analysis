@@ -70,4 +70,6 @@ Question: How do annual members and casual riders use Cyclistic bikes differentl
 
 #### Rider Composition
 
+![Rider Composition](images/member_casual.png).
+
 This pie chart shows the overall distribution of rides between annual members and casual riders. It reveals that casual riders make up 36.13% of all trips, which represents a significant opportunity to convert them into annual memberships. Annual members, who are more profitable, account for the majority of rides at 63.87%.
