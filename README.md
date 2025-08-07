@@ -59,8 +59,6 @@ You can find the complete SQL script for these steps in the [SQL Queries](sql/da
 
 #### Observations
 
-### Observations
-
 The table below shows the column names and their data types. The `ride_id` column is our primary key.
 
 ![Table Schema](images/schema.png)
@@ -68,3 +66,8 @@ The table below shows the column names and their data types. The `ride_id` colum
 ## Analysis Summary
 
 I used Power BI for visualization. To handle the large volume of data, I chose the DirectQuery connection method, which allows Power BI to connect live to the data source without loading it all into memory. This ensures the analysis remains efficient and scalable.
+Question: How do annual members and casual riders use Cyclistic bikes differently?
+
+#### Rider Composition
+
+This pie chart shows the overall distribution of rides between annual members and casual riders. It reveals that casual riders make up 36.13% of all trips, which represents a significant opportunity to convert them into annual memberships. Annual members, who are more profitable, account for the majority of rides at 63.87%.
