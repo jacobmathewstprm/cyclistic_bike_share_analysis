@@ -110,3 +110,22 @@ This heatmap visualizes the density of starting locations for both rider types. 
 ![End Station Loactions](images/end_station.png)
 
 A similar trend can be observed in the end station locations. The heatmap for members shows a high concentration of activity in the same central business districts where their rides began. This pattern reinforces the conclusion that members rely on bikes for daily commutes. In contrast, the end locations for casual riders are more spread out, supporting the idea that they are using the service for leisure activities with less fixed routes.
+
+#### Summary of Findings
+
+Our analysis of over 5.8 million bike trips revealed fundamental differences in how annual members and casual riders use Cyclistic bikes.
+
+**Usage Patterns:** Annual members have a clear commuting pattern, with high usage on weekdays and two distinct peaks (morning and evening). In contrast, casual riders show a strong leisure pattern, with their highest usage on weekends and a single peak in the afternoon.
+
+**Seasonality:** Both groups are most active during the spring and summer, but members consistently have a higher number of trips all year.
+
+**Location:** Member activity is highly concentrated in central business districts, which supports the commuting idea. Casual rider activity is more spread out, consistent with tourism and recreational activities.
+
+#### Recommendations
+Based on these key insights, here are a few ideas to help convert casual riders into annual members:
+
+- Introduce Flexible Membership Options: We should offer special memberships for things like weekends only or for the summer season. Since casual riders use bikes most on weekends and in the summer, these plans would be a great deal for them and could   get them to sign up.
+- Launch a Targeted Digital Media Campaign: We should run ads at the right time and in the right places. For example, ads could be placed at popular parks and stations during weekends and summer months. The message should be about how much money they    could save with a membership.
+- Refocus Ad Messaging: The ads should speak directly to casual riders. Instead of just trying to get new people, the ads should compare the cost of a few weekend rides to the value of an annual membership. 
+
+
