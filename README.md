@@ -51,8 +51,9 @@ BigQuery was used to manage, combine, and clean the data. As the dataset contain
 The following steps were performed to prepare the data for analysis:
 
 * **Combining Data:** All 12 monthly CSV files were combined into a single table.
-* **Data Cleaning and Transformation:** SQL queries were used to remove rows with missing values, and new columns were created for trip duration, day of the week, and month to aid in the analysis.
-                                         All the rows having missing values are deleted, Trips with duration less than a minute and longer than a day are excluded.
+* **Data Cleaning and Transformation:** SQL queries were used to remove rows with missing values, and new columns were created for trip duration, day of the week, month, start_hour and HourLabel,
+   to aid in the analysis of trip times.
+    All the rows having missing values are deleted, Trips with duration less than a minute and longer than a day are excluded.
 * **Primary Key:** The `ride_id` was identified as the primary key, and it was used to check for and remove any duplicate rows.
   
 You can find the complete SQL script for these steps in the [SQL Queries](sql/data_cleaning_and_transformation.sql) section of this repository.
@@ -73,3 +74,10 @@ Question: How do annual members and casual riders use Cyclistic bikes differentl
 ![Rider Composition](images/member_casual.png).
 
 This pie chart shows the overall distribution of rides between annual members and casual riders. It reveals that casual riders make up 36.13% of all trips, which represents a significant opportunity to convert them into annual memberships. Annual members, who are more profitable, account for the majority of rides at 63.87%.
+
+#### Bike Type Preference
+
+[Bike Type Preference]
+
+This chart compares the distribution of bike types between members and casual riders. It shows that both groups primarily prefer classic bikes.
+However, members make up a much larger percentage of total rides on classic bikes (41.97%) compared to casual riders (23.15%). For electric bikes, the usage is more balanced, with members accounting for 21.37% of rides and casuals at 12.38%. The use of electric_scooter is negligible for both groups.
